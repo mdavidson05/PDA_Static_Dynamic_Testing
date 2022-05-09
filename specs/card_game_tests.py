@@ -6,6 +6,19 @@ class TestCardGame(unittest.TestCase):
     
     def setUp(self):
 
+        self.two_of_clubs = Card("clubs", 2)
+        self.three_of_clubs = Card("clubs", 3)
+        self.four_of_clubs = Card("clubs", 4)
+        self.five_of_clubs = Card("clubs", 5)
+        self.six_of_clubs = Card("clubs", 6)
+        self.seven_of_clubs = Card("clubs", 7)
+        self.eight_of_clubs = Card("clubs", 8)
+        self.nine_of_clubs = Card("clubs", 9)
+        self.jack_of_clubs = Card("clubs", 10)
+        self.queen_of_clubs = Card("clubs", 10)
+        self.king_of_clubs = Card("clubs", 10)
+        self.ace_of_clubs = Card("clubs", 1)
+
         self.two_of_hearts = Card("hearts", 2)
         self.three_of_hearts = Card("hearts", 3)
         self.four_of_hearts = Card("hearts", 4)
@@ -19,19 +32,18 @@ class TestCardGame(unittest.TestCase):
         self.king_of_hearts = Card("hearts", 10)
         self.ace_of_hearts = Card("hearts", 1)
 
-
-        self.two_of_clubs = Card("clubs", 2)
-        self.three_of_clubs = Card("clubs", 3)
-        self.four_of_clubs = Card("clubs", 4)
-        self.five_of_clubs = Card("clubs", 5)
-        self.six_of_clubs = Card("clubs", 6)
-        self.seven_of_clubs = Card("clubs", 7)
-        self.eight_of_clubs = Card("clubs", 8)
-        self.nine_of_clubs = Card("clubs", 9)
-        self.jack_of_clubs = Card("clubs", 10)
-        self.queen_of_clubs = Card("clubs", 10)
-        self.king_of_clubs = Card("clubs", 10)
-        self.ace_of_clubs = Card("clubs", 1)
+        self.two_of_spades = Card("spades", 2)
+        self.three_of_spades = Card("spades", 3)
+        self.four_of_spades = Card("spades", 4)
+        self.five_of_spades = Card("spades", 5)
+        self.six_of_spades = Card("spades", 6)
+        self.seven_of_spades = Card("spades", 7)
+        self.eight_of_spades = Card("spades", 8)
+        self.nine_of_spades = Card("spades", 9)
+        self.jack_of_spades = Card("spades", 10)
+        self.queen_of_spades = Card("spades", 10)
+        self.king_of_spades = Card("spades", 10)
+        self.ace_of_spades = Card("spades", 1)
 
 
         self.two_of_diamonds = Card("diamonds", 2)
@@ -48,32 +60,7 @@ class TestCardGame(unittest.TestCase):
         self.ace_of_diamonds = Card("diamonds", 1)
 
 
-        self.two_of_spades = Card("spades", 2)
-        self.three_of_spades = Card("spades", 3)
-        self.four_of_spades = Card("spades", 4)
-        self.five_of_spades = Card("spades", 5)
-        self.six_of_spades = Card("spades", 6)
-        self.seven_of_spades = Card("spades", 7)
-        self.eight_of_spades = Card("spades", 8)
-        self.nine_of_spades = Card("spades", 9)
-        self.jack_of_spades = Card("spades", 10)
-        self.queen_of_spades = Card("spades", 10)
-        self.king_of_spades = Card("spades", 10)
-        self.ace_of_spades = Card("spades", 1)
-
         self.cards = [
-            Card("hearts", 2),
-            Card("hearts", 3),
-            Card("hearts", 4),
-            Card("hearts", 5),
-            Card("hearts", 6),
-            Card("hearts", 7),
-            Card("hearts", 8),
-            Card("hearts", 9),
-            Card("hearts", 10),
-            Card("hearts", 10),
-            Card("hearts", 10),
-            Card("hearts", 1),
 
             Card("clubs", 2),
             Card("clubs", 3),
@@ -88,18 +75,18 @@ class TestCardGame(unittest.TestCase):
             Card("clubs", 10),
             Card("clubs", 1),
 
-            Card("diamonds", 2),
-            Card("diamonds", 3),
-            Card("diamonds", 4),
-            Card("diamonds", 5),
-            Card("diamonds", 6),
-            Card("diamonds", 7),
-            Card("diamonds", 8),
-            Card("diamonds", 9),
-            Card("diamonds", 10),
-            Card("diamonds", 10),
-            Card("diamonds", 10),
-            Card("diamonds", 1),
+            Card("hearts", 2),
+            Card("hearts", 3),
+            Card("hearts", 4),
+            Card("hearts", 5),
+            Card("hearts", 6),
+            Card("hearts", 7),
+            Card("hearts", 8),
+            Card("hearts", 9),
+            Card("hearts", 10),
+            Card("hearts", 10),
+            Card("hearts", 10),
+            Card("hearts", 1),
 
             Card("spades", 2),
             Card("spades", 3),
@@ -113,6 +100,20 @@ class TestCardGame(unittest.TestCase):
             Card("spades", 10),
             Card("spades", 10),
             Card("spades", 1),
+
+            Card("diamonds", 2),
+            Card("diamonds", 3),
+            Card("diamonds", 4),
+            Card("diamonds", 5),
+            Card("diamonds", 6),
+            Card("diamonds", 7),
+            Card("diamonds", 8),
+            Card("diamonds", 9),
+            Card("diamonds", 10),
+            Card("diamonds", 10),
+            Card("diamonds", 10),
+            Card("diamonds", 1),
+
         ]
 
     
