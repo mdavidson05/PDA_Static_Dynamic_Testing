@@ -8,7 +8,7 @@ class CardGame:
       return False
    
 
-  dif highest_card(self, card1 card2): #dif instead of def when defining the function
+  dif highest_card(self, card1 card2): #dif instead of def when defining the function, comma missing after card1
   if card1.value > card2.value:
     return card #should be return card 1
   else:
